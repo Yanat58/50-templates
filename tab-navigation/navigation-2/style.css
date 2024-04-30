@@ -14,7 +14,7 @@ width: 80vw;
 height: 75vh;
 background-color: #e7e7e7;
 color: #1d1d27;
-margin: 6rem auto 0;
+margin: 4rem auto 0;
 }
 .btn-row {
 display: grid;
@@ -22,7 +22,7 @@ grid-template-columns: repeat(3, 8rem);
 grid-template-rows: 3.5rem;
 column-gap: 10rem;
 justify-content: center;
-padding: 4rem auto !important;
+padding: 1rem auto ;
 border-bottom: 2px solid #1d1d27;
 }
 .btn {
@@ -30,9 +30,8 @@ border: none;
 outline: none;
 background-color: #fff;
 }
-.btn svg {
-width: 3rem;
-height: 2.2rem;
+ i {
+padding: 8px 40px;
 }
 .btn:hover {
 cursor: pointer;

@@ -4,11 +4,10 @@ const icons = document.querySelectorAll("i")
 function showCard(e, index) {
 //adds the hidden-city class to all city element and removes the active-btn class from all
 buttons
-for (let q = 0; q < cards.length; q+=1) {
-cards[q].classList.add("hidden-card");
-cards[q].classList.remove("animate");
-icons[q].classList.remove("active-btn");
-buttons[q].classList.remove("active-btn");
+for (let i = 0; i < cards.length; i+=1) {
+cards[i].classList.add("hidden-card");
+cards[i].classList.remove("animate");
+icons[i].classList.remove("active-btn");
 }
 //adding the active-btn class to the clicked button
 e.target.classList.add("active-btn");
