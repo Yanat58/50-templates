@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tab Navigation 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <p><a href="../../index.html">Go back</a></p>
+    <!-- Tabbed image gallery -->
+    <div class="tabbed-gallery">
+      <div class="btn-row">
+        <button class="btn active-btn">New York</button>
+        <button class="btn">Honolulu</button>
+        <button class="btn">Seoul</button>
+      </div>
+
+      <div id="New York" class="city">
+        <img src="https://images.unsplash.com/photo-1499092346589-b9b6be3e94b2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG5ldyUyMHlvcmt8ZW58MHx8MHx8fDA%3D" alt="New York" class="" />
+        <p>New York City</p>
+      </div>
+
+      <div id="Honolulu" class="city hidden-city">
+        <img src="https://images.unsplash.com/photo-1573992554018-83e7853bd45f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8SG9ub2x1bHV8ZW58MHx8MHx8fDA%3D" alt="Honolulu" class="" />
+        <p>Honolulu</p>
+      </div>
+
+      <div id="Seoul" class="city hidden-city">
+        <img src="https://images.unsplash.com/photo-1546874177-9e664107314e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U2VvdWwlMjBjaXR5fGVufDB8fDB8fHww" alt="Seoul" class="" />
+        <p>Seoul</p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
